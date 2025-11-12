@@ -56,4 +56,4 @@ Repozytorium zawiera kompletne skrypty niezbędne do wdrożenia i testowania baz
 
 ---
 *Autor: Franciszek Borys*
-*Profil GitHub: [Twoja nazwa użytkownika]*
+*Profil GitHub: [FranBory]*
