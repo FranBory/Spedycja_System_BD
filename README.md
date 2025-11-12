@@ -2,15 +2,15 @@
 
 ## 🌟 Opis Projektu
 
-Kompletny projekt bazy danych, stworzony jako praca zaliczeniowa na kursie **"Bazy Danych"** na Politechnice Gdańskiej. [cite_start]Projekt symuluje realne procesy logistyczne i spedycyjne, mając na celu **optymalizację zarządzania dostawami, przydział zasobów oraz poprawę komunikacji** między kluczowymi użytkownikami (Nadawca, Odbiorca, Spedytor, Kierowca)[cite: 4, 6, 8].
+Kompletny projekt bazy danych, stworzony jako praca zaliczeniowa na kursie **"Bazy Danych"** na Politechnice Gdańskiej.Projekt symuluje realne procesy logistyczne i spedycyjne, mając na celu **optymalizację zarządzania dostawami, przydział zasobów oraz poprawę komunikacji** między kluczowymi użytkownikami (Nadawca, Odbiorca, Spedytor, Kierowca).
 
 Jest to gotowe do wdrożenia rozwiązanie, które modeluje kluczowe encje i relacje w branży Transport-Spedycja-Logistyka (TSL).
 
 ## 🎯 Cele Projektu
 
-* [cite_start]**Modelowanie Danych:** Stworzenie logicznego i spójnego modelu relacyjnego, zdolnego obsłużyć kluczowe procesy w firmie spedycyjnej ("Spedex")[cite: 2, 4].
+* **Modelowanie Danych:** Stworzenie logicznego i spójnego modelu relacyjnego, zdolnego obsłużyć kluczowe procesy w firmie spedycyjnej ("Spedex").
 * **Integralność Danych:** Zapewnienie poprawności i spójności danych poprzez wykorzystanie kluczy obcych i mechanizmów integralności referencyjnej.
-* [cite_start]**Wsparcie Logistyczne:** Przygotowanie bazy pod zapytania i scenariusze kluczowe dla zarządzania transportem (np. śledzenie dostaw, przydział kierowców i pojazdów)[cite: 11, 12, 13].
+* **Wsparcie Logistyczne:** Przygotowanie bazy pod zapytania i scenariusze kluczowe dla zarządzania transportem (np. śledzenie dostaw, przydział kierowców i pojazdów).
 
 ## 🛠️ Technologie i Wdrożenie
 
@@ -30,9 +30,9 @@ Baza modeluje 9 głównych encji powiązanych złożonymi relacjami (m.in. relac
 
 ### Kluczowe Elementy Projektu
 
-* [cite_start]**Model Dziedziczenia:** Zastosowanie relacji **IS\_A** do modelowania specjalizacji (np. `Kierowca` jako podklasa `Pracownika`)[cite: 59, 123].
+* **Model Dziedziczenia:** Zastosowanie relacji **IS\_A** do modelowania specjalizacji (np. `Kierowca` jako podklasa `Pracownika`).
 * **Integralność Kaskadowa:** Implementacja ograniczeń `ON DELETE CASCADE` w celu automatycznego zarządzania danymi powiązanymi, co jest kluczowe dla utrzymywalności i automatyzacji.
-* [cite_start]**Model 1:1:** Relacja między `Ładunek` a `List_Przewozowy` zapewniająca unikalną dokumentację dla każdej przesyłki[cite: 100].
+* **Model 1:1:** Relacja między `Ładunek` a `List_Przewozowy` zapewniająca unikalną dokumentację dla każdej przesyłki.
 
 ## 📂 Zawartość Repozytorium
 
@@ -52,7 +52,7 @@ Repozytorium zawiera kompletne skrypty niezbędne do wdrożenia i testowania baz
 1.  Uruchom środowisko bazy danych (np. SQL Server Management Studio lub DBeaver z podłączoną bazą SQL).
 2.  Uruchom skrypt `tworzenie_tabel.sql` (DDL).
 3.  Uruchom skrypt `wypelnienie_tabeli.sql` (DML), aby wypełnić bazy danymi testowymi.
-4.  [cite_start]Wykonaj zapytania testowe opisane w sekcji **Scenariusze i zapytania** w pliku `BazyProjket.pdf`[cite: 10, 14].
+4.  Wykonaj zapytania testowe opisane w sekcji **Scenariusze i zapytania** w pliku `BazyProjket.pdf`.
 
 ---
 *Autor: Franciszek Borys*
